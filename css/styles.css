@@ -721,15 +721,18 @@ img {
 }
 
 .btn-close-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   top: 8px;
   right: 8px;
+  padding: 0;
   cursor: pointer;
   width: 30px;
   height: 30px;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  background-color: transparent;
 }
 
 .is-hidden {
