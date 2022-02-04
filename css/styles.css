@@ -301,15 +301,16 @@ img {
 }
 
 .about-product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   bottom: 0;
   left: 0;
 
-  width: 370px;
+  width: 100%;
   height: 70px;
   background-color: var(--about-product-bg-color);
-  padding-top: 27px;
-  padding-bottom: 27px;
 }
 
 .about-title {
@@ -642,7 +643,8 @@ img {
   border: 0;
 }
 
-.card-set-link:hover .portfolio-top-text {
+.card-set-link:hover .portfolio-top-text,
+.card-set-link:focus .portfolio-top-text {
   transform: translateY(0);
 }
 
